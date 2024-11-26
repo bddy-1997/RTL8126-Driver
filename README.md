@@ -1,5 +1,6 @@
 ### 螃蟹RTL8126 5G有线网卡
 仅在PVE8.3版本下测试
+建议先更换软件源
 
 ```plain
 apt update -y
