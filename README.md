@@ -14,5 +14,6 @@ tar vjxf $PWD/r8126-10.014.01.tar.bz2
 cd r8126-10.014.01
 chmod a+x autorun.sh
 ./autorun.sh
+lsmod | grep r8126
 ```
 
