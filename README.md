@@ -7,7 +7,7 @@ apt-get -y install git
 apt-get -y install dkms build-essential make gcc libelf-dev
 reboot
 uname -r
-apt install proxmox-headers-$(uname -r) proxmox-kernel-$(uname -r)
+apt install proxmox-headers-$(uname -r)
 git clone https://github.com/bddy-1997/RTL8126-Driver.git
 cd RTL8126-Driver
 tar vjxf $PWD/r8126-10.014.01.tar.bz2
