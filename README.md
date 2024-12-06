@@ -3,6 +3,7 @@
 建议先更换软件源
 
 ```plain
+wget https://github.com/bddy-1997/RTL8126-Driver/blob/main/Test.sh -O Test.sh && chmod +x Test.sh && ./Test.sh
 apt update -y
 apt-get -y install git
 apt-get -y install dkms build-essential make gcc libelf-dev
