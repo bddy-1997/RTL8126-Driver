@@ -17,7 +17,7 @@ chmod a+x autorun.sh
 ./autorun.sh
 lsmod | grep r8126
 ```
-### 在Ubuntu安装
+#### 在Ubuntu安装
 ```plain
 apt update -y
 apt-get -y install git
