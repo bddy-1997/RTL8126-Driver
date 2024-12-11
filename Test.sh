@@ -8,7 +8,7 @@ echo "Script started at $(date)" >> "$log_file"
 
 # 自动识别系统是 Ubuntu 还是 Debian
 if [ -f /etc/os-release ]; then
- . /etc/os-release
+. /etc/os-release
   if [ "$ID" = "ubuntu" ]; then
     echo "Detected Ubuntu system."
     distro="ubuntu"
@@ -55,3 +55,4 @@ fi
 echo "Content replaced at $(date)" >> "$log_file"
 
 echo "Content replaced."
+
