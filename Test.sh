@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# 定义日志文件路径
-log_file="/var/log/source_update.log"
-
-# 记录脚本开始运行的时间
-echo "Script started at $(date)" >> "$log_file"
-
 # 自动识别系统是 Ubuntu 还是 Debian
 if [ -f /etc/os-release ]; then
 . /etc/os-release
