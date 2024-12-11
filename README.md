@@ -1,7 +1,7 @@
 ### 螃蟹RTL8126 5G有线网卡
 #### 在PVE下进行安装
 建议先更换软件源
-wget https://github.com/bddy-1997/RTL8126-Driver/blob/main/Test.sh -O Test.sh && chmod +x Test.sh && ./Test.sh
+
 
 ```plain
 apt update -y
